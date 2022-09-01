@@ -1,0 +1,35 @@
+.product-card {
+  width: 200px;
+  height: 300px;
+
+  .product-image {
+    width: 90%;
+  }
+
+  h3 {
+    font-size: 0.85rem;
+    font-weight: 400;
+  }
+
+  .product-price {
+    margin-top: -0.75rem;
+    font-size: $small;
+    color: blue;
+  }
+
+  .review-container {
+    display: flex;
+    align-items: center;
+    margin-top: -1.5rem;
+    .star-container {
+      display: flex;
+      align-items: center;
+    }
+    .star {
+      color: orangered;
+    }
+    p {
+      font-size: $small;
+    }
+  }
+}

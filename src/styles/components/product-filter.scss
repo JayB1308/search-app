@@ -1,0 +1,59 @@
+.product-filter {
+  height: 50%;
+  width: 25%;
+  margin-top: -3rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 1rem;
+
+  h2 {
+    font-size: $large;
+    font-weight: 400;
+  }
+
+  .filter-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -2rem;
+
+    .filter-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: $medium;
+    }
+
+    .filter-lists {
+      margin-top: -1rem;
+      padding-bottom: 0.75rem;
+      border-bottom: 1px solid black;
+    }
+
+    .filter-values {
+      display: flex;
+      gap: 0.25rem;
+      align-items: center;
+
+      label {
+        font-size: $small;
+      }
+    }
+  }
+  .review-filer-container {
+    width: 50%;
+    margin-top: -1.5rem;
+    .filled {
+      color: orangered;
+    }
+    .empty {
+      color: grey;
+    }
+    .filter-heading {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: $medium;
+    }
+  }
+}

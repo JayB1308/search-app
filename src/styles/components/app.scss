@@ -1,0 +1,14 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(
+      rgba(218, 215, 217, 0.6),
+      rgba(218, 215, 217, 0.6)
+    ),
+    url("../../assets/bg_image.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

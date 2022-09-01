@@ -1,0 +1,109 @@
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 1rem auto;
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    border-radius: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 40%;
+    height: 2rem;
+
+    .search-input {
+      outline: none;
+      border: none;
+      font-size: $medium;
+    }
+
+    input::placeholder {
+      color: $accent;
+    }
+
+    .search-icon {
+      font-size: $large;
+      color: $accent;
+      cursor: pointer;
+
+      &:hover {
+        color: #000;
+      }
+    }
+  }
+}
+
+.search-modal-container {
+  width: 55%;
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 1px 3px 10px gray;
+  padding: 1.5rem 2.25rem;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+
+  .top-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 0.5rem;
+
+    .search-link {
+      text-decoration: none;
+      color: #000;
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  h2 {
+    font-size: $medium;
+    font-weight: 400;
+  }
+
+  .products-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: -1rem;
+  }
+  .search-term-container {
+    margin-top: -6rem;
+    & h2 {
+      font-size: $medium;
+    }
+  }
+  .popular-search {
+    display: flex;
+    flex-direction: column;
+    .search-term {
+      margin-top: -0.5rem;
+      font-size: $small;
+    }
+  }
+}
+
+.search-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 450px;
+  height: 250px;
+
+  .search-card-image {
+    width: 80%;
+    height: 50%;
+  }
+
+  .search-card-name {
+    font-size: $small;
+    font-weight: 600;
+  }
+}

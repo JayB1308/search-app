@@ -1,0 +1,6 @@
+.product-catalog {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 75%;
+}
